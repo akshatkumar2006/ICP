@@ -1,4 +1,4 @@
-package DailyQuestions_ICP;
+package Day_1;
 
 import java.util.PriorityQueue;
 

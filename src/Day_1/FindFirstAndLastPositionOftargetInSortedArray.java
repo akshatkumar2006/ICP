@@ -1,4 +1,4 @@
-package DailyQuestions_ICP;
+package Day_1;
 
 public class FindFirstAndLastPositionOftargetInSortedArray {
 
