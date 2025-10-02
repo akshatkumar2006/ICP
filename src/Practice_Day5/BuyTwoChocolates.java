@@ -1,7 +1,27 @@
 package Practice_Day5;
 
 public class BuyTwoChocolates {
-	public static void main(String[] args) {
-		int a = 10;
+	class Solution {
+		public int buyChoco(int[] prices, int money) {
+			int n = prices.length;
+
+			int min1 = 101;
+			int min2 = 101;
+
+			for (int i = 0; i < n; i++) {
+				if (prices[i] < min1) {
+					min2 = min1;
+					min1 = prices[i];
+				} else if (prices[i] < min2) {
+					min2 = prices[i];
+				}
+			}
+
+			if ((min1 + min2) <= money) {
+				return money - (min1 + min2);
+			} else {
+				return money;
+			}
+		}
 	}
 }
