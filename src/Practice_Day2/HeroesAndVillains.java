@@ -1,5 +1,6 @@
 package Practice_Day2;
 
+@SuppressWarnings("unused")
 public class HeroesAndVillains {
 
 	public static void main(String[] args) {

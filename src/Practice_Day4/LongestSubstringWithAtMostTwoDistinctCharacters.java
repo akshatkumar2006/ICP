@@ -3,6 +3,7 @@ package Practice_Day4;
 import java.util.HashMap;
 import java.util.Map;
 
+@SuppressWarnings("unused")
 public class LongestSubstringWithAtMostTwoDistinctCharacters {
 //	class Solution {
 //	    public int lengthOfLongestSubstringTwoDistinct(String s) {
