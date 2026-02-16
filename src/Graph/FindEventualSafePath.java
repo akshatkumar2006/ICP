@@ -1,5 +1,8 @@
 package Graph;
 
+import  java.util.*;
+
+@SuppressWarnings("unused")
 public class FindEventualSafePath {
 	
 	class Solution {
@@ -11,8 +14,11 @@ public class FindEventualSafePath {
 	        HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
 
 	        for(int i = 0; i < n; i++){
-	            g  
+
 	        }
+
+			List<Integer> ll = new ArrayList<>();
+			return ll;
 	    }
 	}
 }
