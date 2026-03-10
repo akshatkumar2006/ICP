@@ -3,7 +3,7 @@ package Graph;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class RottingTomatoes {
+public class RottingOranges {
 
 	class Solution {
 	    int[] row = { -1, 0, 1, 0 };

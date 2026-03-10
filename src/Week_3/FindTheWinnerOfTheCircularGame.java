@@ -22,7 +22,7 @@ public class FindTheWinnerOfTheCircularGame {
 			int c = 0;
 			while (q.size() != 1) {
 				c++;
-				int v = q.poll();
+				int v = q.remove();
 				if (c == k) {
 					c = 0;
 					continue;
