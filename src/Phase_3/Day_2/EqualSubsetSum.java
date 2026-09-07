@@ -1,8 +1,7 @@
 package Phase_3.Day_2;
 
 public class EqualSubsetSum {
-    public static void main(String[] args) {
-	// JAVA Code for equal subset sum        
+    public static void main(String[] args) {       
 int[] arr = {2, 3, 5, 11, 1};
         int sum = 0;
         for(int ele : arr){
